@@ -9,11 +9,8 @@ const app = express();
 app.use(express.json());
 app.use(cors({
   origin: [
-    "http://localhost:3000",
-    "http://localhost:3001",
-    "http://localhost:3002",
-    "http://localhost:3003",
-    "https://your-frontend-domain.com"
+     "http://localhost:3000",
+    "https://expense-manager-tau-nine.vercel.app"
   ],
   credentials: true
 }));
